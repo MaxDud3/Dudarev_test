@@ -11,6 +11,7 @@ describe('template spec', () => {
     cy.get(".section-gallery-wrapper__item._active").first().click();
     cy.get(".price_value").contains(iphone);
     
+    
   })
 })
 
